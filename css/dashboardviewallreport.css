@@ -199,6 +199,30 @@
   color: #6b6d71;
 }
 
+.report-header .topup {
+  color: #fa6b5f;
+}
+
+.report-header .momo {
+  color: #cec7a5;
+}
+
+.report-header .revenue {
+  color: #d5b24a;
+}
+
+.report-header .orders {
+  color: #ba8a61;
+}
+
+.report-header .users {
+  color: #ffce2c;
+}
+
+.report-header .sold {
+  color: #6b6d71;
+}
+
 @media only screen and (max-width: 768px) {
   .background {
     height: 100vh;
