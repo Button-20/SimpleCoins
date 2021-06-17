@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.background{
+    background-color: #272A30;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading-container{
+    padding: 40px 100px 50px;
+    background-color: #23262B;
+}
+
+.heading{
+    display: flex;
+}
+
+.heading > p{
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.heading > p > strong{
+    font-weight: 700;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar__nav{
+    padding-left: 20px;
+    vertical-align: center;
+    margin-top: -5px;
+}
+
+.navbar__nav > a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #9D9D9D;
+}
+
+.navbar__nav > input{
+    /* position: absolute; */
+    width: 200px;
+    padding: 10px 30px;
+    background-color: #272A30;
+    border-style: none;
+    outline: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    top: 4%;
+}
+
+.navbar__nav__button > button{
+    background: none;
+    border-style: none;
+    font-weight: 600;
+    color: #F56565;
+}
+
+.navbar__nav__button > button:hover{
+    background: none;
+    border-style: none;
+    font-weight: 600;
+    color: rgb(252, 40, 40);
+    cursor: pointer;
+}
+
+.heading__details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome__details{
+    padding: 100px 140px 0px 0px;
+}
+
+.welcome__details > p {
+    color: #B4B5B8;
+    font-size: 15px;
+}
+
+.welcome__details > h3 {
+    color: whitesmoke;
+    padding: 5px 0px;
+}
+
+.welcome__details > h5 {
+    color: #B4B5B8;
+    opacity: 0.5;
+}
+
+.details{
+    padding: 100px 80px 0px 0px;
+}
+
+.details > h3{
+    color: whitesmoke;
+}
+
+.processed{
+    color: #40A187;
+}
+
+.pending{
+    color: #ECC94B;
+}
+
+.total-users{
+    color: #A0AEC0;
+}
+
+.total-amount-sold{
+    color: whitesmoke;
+}
+
+.total-amount-bought{
+    color: whitesmoke;
+}
+
+.details > .amount{
+    color: #40A187;
+}
+
+.view-all{
+    text-align: right;
+}
+
+.view-all > a{
+    font-size: small;
+}
+
+.body{
+    display: flex;
+    min-height: 60vh;
+}
+
+.recent-container{
+    /* background-color: whitesmoke; */
+    flex: 0.5
+}
+
+.rates-container{
+    flex: 0.5
+}
+
+.recent-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.recent-header > p{
+    color: #9D9D9D;
+}
+
+.recent-header > p > i{
+    padding-left: 10px;
+    color: #40A187;
+    align-self: center;
+    cursor: pointer;
+}
+
+.recent-header > a{
+    color: #9D9D9D;
+}
+
+.container{
+    padding: 0px 0px 10px 0px;
+}
+
+.transaction-holder{
+    margin: 0px 100px;
+    border-radius: 5px;
+    background-color: #23262B;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+}
+
+.transaction-holder:hover{
+    border: 1px solid #40A187;
+}
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.transaction > i{
+    font-size: 10px;
+    color: #ECC94B;
+}
+
+.transaction > p{
+    color: #9D9D9D;
+}
+
+.transaction > p > bold{
+    color: whitesmoke;
+}
+
+.recent-body{
+    text-align: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.pagination > p{
+    color: #B4B5B8;
+    padding-right: 10px;
+}
+
+.pagination-icon{
+    background-color: #23262B;
+    padding: 5px 10px;
+    border: 1px solid #545454;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.rates-header{
+    display: flex;
+    padding: 80px 120px 20px 300px;
+}
+
+.rates-header-nav > p{
+    background-color: #23262B;
+    color: #9D9D9D;
+    padding: 15px 65px;
+    border-radius: 5px;
+}
+
+.rates-header-nav.first{
+    padding-right: 10px;
+    flex: 0.5;
+    text-align: center;
+}
+
+.rates-header-nav.second {
+    flex: 0.5;
+    text-align: center;
+}
+
+.rates-body{
+    padding: 0px 120px 20px 300px;
+}
+
+.rates{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 20px 15px;
+    align-items: center;
+}
+
+.rates-container{
+    padding: 0px 0px 10px 0px;
+}
+
+.ratebody-container{
+    padding: 0px 0px 10px 0px;
+}
+
+.rates-holder{
+    border-radius: 5px;
+    background-color: #23262B;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+}
+
+.rates-holder-icon{
+    text-align: right;
+    padding: 0 20px 0 0;
+}
+
+.rates-holder-icon > i{
+    font-size: 6px;
+    color: whitesmoke;
+}
+
+.rates-icon > i{
+    font-size: 30px;
+    transform: rotate(-15deg);
+    color: rgb(241, 142, 28);
+}
+
+.currency{
+    color: #EFEFF1;
+}
+
+.currency-convert{
+    color: #40A187;
+}
+
+.currency-convert-other{
+    color: #ECC94B;
+}
