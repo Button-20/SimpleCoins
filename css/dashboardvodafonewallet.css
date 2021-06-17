@@ -179,10 +179,8 @@
   color: whitesmoke;
 }
 
-.rate-badge-body > i {
-  font-size: 30px;
-  transform: rotate(-15deg);
-  color: rgb(241, 142, 28);
+.rate-badge-body > img {
+  width: 30px;
 }
 
 .rate-badge-body > p {
@@ -196,7 +194,7 @@
 
 .form-control-1 {
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 130px;
 }
 
 .form-input {
@@ -226,23 +224,6 @@
 
 .input-label.first {
   width: 135px;
-}
-
-.form-control-holder.short {
-  padding-left: 10px;
-  width: 250px;
-}
-
-.form-control-holder.short > .form-input {
-  padding-right: 0px;
-}
-
-.form-control-holder.naira > .form-input {
-  padding-right: 90px;
-}
-
-.form-control-holder.short > .form-input > input {
-  width: 100px;
 }
 
 .form-control-holder > p {
@@ -287,52 +268,75 @@ button:focus {
   color: whitesmoke;
 }
 
-.message-badge {
-  /* display: flex; */
-  max-width: 400px;
-  padding: 5px 10px;
-  border-radius: 7px;
+.section-2-holder {
+  position: absolute;
+  right: 10%;
+  width: 400px;
+}
+
+.report {
   background-color: #23262b;
-  margin: 20px 200px;
-}
-
-.message-badge-header {
-  text-align: right;
-}
-
-.message-badge-header > i {
-  color: #ecc94b;
-  font-size: 6px;
-}
-
-.message-badge-body {
+  max-width: 350px;
   padding: 20px;
+  margin: 20px 20px 20px 0px;
+  border-radius: 7px;
+  border: 0.5px solid #6b6d71;
+  max-height: 150px;
+  align-self: flex-end;
 }
 
-.message-badge-body-head {
+.report-header {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 20px;
 }
 
-.message-badge-body-head > p {
-  color: #efeff1;
+.report-header > p {
+  color: whitesmoke;
+  font-weight: 600;
 }
 
-.message-badge-body-body > p {
-  color: #9d9d9d;
-}
-
-.message-button {
-  padding: 40px;
-  background-color: #23262b;
-  max-width: 345px;
-  margin-left: 200px;
+.report-header > select {
+  background-color: #272a30;
+  padding: 5px 20px 5px 5px;
+  /* width: 100px; */
+  border: none;
+  border-radius: 3px;
+  color: #b4b5b8;
   text-align: center;
-  border-radius: 7px;
-  border: 1px solid #ecc94b;
 }
 
-.message-button > p {
-  color: #ecc94b;
+.report-body > h1 {
+  color: #b4b5b8;
+  font-weight: 300;
+}
+
+.report-body > p {
+  color: #6b6d71;
+}
+
+.report-header .topup {
+  color: #fa6b5f;
+}
+
+.report-header .momo {
+  color: #cec7a5;
+}
+
+.report-header .revenue {
+  color: #d5b24a;
+}
+
+.report-header .orders {
+  color: #ba8a61;
+}
+
+.report-header .users {
+  color: #ffce2c;
+}
+
+.report-header .sold {
+  color: #6b6d71;
 }
 
 @media only screen and (max-width: 768px) {

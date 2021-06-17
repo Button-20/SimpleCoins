@@ -246,7 +246,7 @@
   border-radius: 5px;
 }
 
-.rates-header-nav.first > p {
+.rates-header-nav.second > p {
   border: 1px solid #40a187;
 }
 
@@ -269,7 +269,8 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 30px 20px 15px;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .rates-container {
