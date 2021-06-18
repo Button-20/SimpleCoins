@@ -139,88 +139,105 @@
 }
 
 .body {
-  /* display: flex; */
-  min-height: 63vh;
-  /* align-items: center; */
+  display: flex;
+  min-height: 60vh;
 }
 
-.report-container {
+.recent-container {
   /* background-color: whitesmoke; */
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 100px;
-  -webkit-flex-flow: wrap;
-  flex-flow: row wrap;
+  flex: 0.5;
 }
 
-.report {
+.rates-container {
+  flex: 0.5;
+}
+
+
+.rates-header {
+  display: flex;
+  padding: 80px 120px 20px 300px;
+}
+
+.rates-header-nav > p {
   background-color: #23262b;
-  /* max-width: 350px; */
-  flex: 1;
-  padding: 20px;
-  margin: 20px 20px 20px 0px;
-  border-radius: 7px;
-  border: 0.5px solid #6b6d71;
-  max-height: 150px;
+  color: #9d9d9d;
+  padding: 15px 65px;
+  border-radius: 5px;
 }
 
-.report:nth-child(4n) {
-  flex-basis: 100%;
+.rates-header-nav.second > p {
+  border: 1px solid #40a187;
 }
 
-.report-header {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.report-header > p {
-  color: whitesmoke;
-  font-weight: 600;
-}
-
-.report-header > select {
-  background-color: #272a30;
-  padding: 5px 20px 5px 5px;
-  /* width: 100px; */
-  border: none;
-  border-radius: 3px;
-  color: #b4b5b8;
+.rates-header-nav.first {
+  padding-right: 10px;
+  flex: 0.5;
   text-align: center;
 }
 
-.report-body > h1 {
-  color: #b4b5b8;
-  font-weight: 300;
+.rates-header-nav.second {
+  flex: 0.5;
+  text-align: center;
 }
 
-.report-body > p {
-  color: #6b6d71;
+.rates-body {
+  padding: 0px 120px 20px 300px;
 }
 
-.report-header .topup {
-  color: #fa6b5f;
+.rates {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 20px 15px;
+  /* align-items: center; */
+  justify-content: center;
 }
 
-.report-header .momo {
-  color: #cec7a5;
+.rates-container {
+  padding: 0px 0px 10px 0px;
 }
 
-.report-header .revenue {
-  color: #d5b24a;
+.ratebody-container {
+  padding: 20px 100px;
+  max-width: 400px;
 }
 
-.report-header .orders {
-  color: #ba8a61;
+.rates-holder {
+  border-radius: 5px;
+  background-color: #23262b;
+  cursor: pointer;
+  transition: 0.1s ease-out;
 }
 
-.report-header .users {
-  color: #ffce2c;
+.rates-holder.highlighted {
+  border: 1px solid #40a187;
 }
 
-.report-header .sold {
-  color: #6b6d71;
+.rates-holder-icon {
+  text-align: right;
+  padding: 0 20px 0 0;
+}
+
+.rates-holder-icon > i {
+  font-size: 6px;
+  color: whitesmoke;
+}
+
+.rates-icon > i {
+  font-size: 30px;
+  transform: rotate(-15deg);
+  color: rgb(241, 142, 28);
+}
+
+.currency {
+  color: #efeff1;
+}
+
+.currency-convert {
+  color: #40a187;
+}
+
+.currency-convert-other {
+  color: #ecc94b;
 }
 
 @media only screen and (max-width: 768px) {
